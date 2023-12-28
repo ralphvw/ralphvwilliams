@@ -20,33 +20,33 @@ import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+  name: "Ralph Vaughan Williams",
+  initials: "RVW",
+  location: "Accra, Ghana",
+  locationLink: "https://www.google.com/maps/place/Accra",
+  about: "I love to build.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Backend Engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with TypeScript, Node.js, GraphQL, Go, Python and .NET Core.",
+  avatarUrl:
+    "https://res.cloudinary.com/dty1ahn1y/image/upload/v1703789752/pfp_ixp2as.jpg",
+  personalWebsiteUrl: "https://ralphvwilliams.vercel.app",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "ralphvwilliams@icloud.com",
+    tel: "+233 505653926",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/ralphvw",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/ralphvwilliams/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/ralphvwilIiams",
         icon: XIcon,
       },
     ],
@@ -61,218 +61,117 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Parabol",
+      company: "Enyata",
       link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      badges: ["On-Site"],
+      title: "Senior Backend Developer",
       logo: ParabolLogo,
       start: "2021",
-      end: "2024",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Implemented new features, led squad, worked on improving the way developers ship the code, mentored and tutored students in our company sponsored intitiative 'The Academy'. Technologies: TypeScript, GraphQL, Node.js, MongoDB, PostgresQL",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js",
     "Node.js",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Go",
+    "Django",
+    ".NET Core",
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
+      title: "Kredit Africa",
+      techStack: ["TypeScript", "Next.js", "Node.js", "Python", "Django"],
+      description: "Empowering inclusive financial futures using AI.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "kreditafrica.com",
+        href: "https://kreditafrica.com/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
+      title: "HRMS by Enyata",
+      techStack: ["TypeScript", "React", "GraphQL", "MongoDB", "Node.js"],
+      description: "SaaS for Human Resource Management.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "hrms.enyata.com",
+        href: "https://hrms.enyata.com/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
+      title: "Validator",
+      techStack: ["Side Project", "Go"],
+      description: "Package to validate http request body in net/http",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/ralphvw/validator",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Sprint Planner",
+      techStack: ["Side Project", "Vue", "Go"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "Streamline sprint planning effortlessly with our intuitive web app for software teams.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "thesprint.vercel.app",
+        href: "https://thesprint.vercel.app",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+      title: "Caption Genius",
+      techStack: [
+        "Side Project",
+        "Python",
+        "Flask",
+        "LangChain",
+        "OpenAI",
+        "HuggingFace",
+      ],
+      description: "Generates captions for images",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "https://caption-frontend-pied.vercel.app/",
+        href: "https://caption-frontend-pied.vercel.app/",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
+      title: "ReplyBot",
+      techStack: ["Side Project", "Python", "Django", "OpenAI"],
+      description:
+        "Replies customer reviews sent via email. Generates appropriate responses based on the sentiment detected",
       logo: YearProgressLogo,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "github.com/ralphvw/replybot",
+        href: "https://github.com/ralphvw/replybot",
       },
     },
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Walks",
+      techStack: ["Side Project", "C#", ".NET Core", "Entity Framework"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "Easily manage and maintain comprehensive walkway data nationwide, complete with authentication.",
+      logo: YearProgressLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "github.com/ralphvw/Walks-API",
+        href: "https://github.com/ralphvw/Walks-API",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      title: "FluxTribe",
+      techStack: ["Typescript", "Node.js", "React"],
+      description: "Social app for collaborating on goals",
+      logo: YearProgressLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "merifot.enyata.com",
+        href: "https://merifot.enyata.com",
       },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
