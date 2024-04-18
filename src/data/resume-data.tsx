@@ -62,14 +62,25 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Enyata",
-      link: "https://parabol.co",
+      link: "https://enyata.com",
       badges: ["On-Site"],
       title: "Senior Backend Developer",
       logo: ParabolLogo,
       start: "2021",
-      end: "Present",
+      end: "2024",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, mentored and tutored students in our company sponsored intitiative 'The Academy'. Technologies: TypeScript, GraphQL, Node.js, MongoDB, PostgresQL",
+    },
+
+    {
+      company: "Hubtel",
+      link: "https://hubtel.com",
+      badges: ["On-Site"],
+      title: "Backend Engineer",
+      logo: ParabolLogo,
+      start: "2024",
+      end: "Present",
+      description: "Technologies: C#, PostgresQL, Kafka, AKKA.NET",
     },
   ],
   skills: [
@@ -83,6 +94,28 @@ export const RESUME_DATA = {
     ".NET Core",
   ],
   projects: [
+    {
+      title: "Gov.MyAssembly Citizen App",
+      techStack: ["C#", "Kafka", "AKKA.NET", "USSD"],
+      description:
+        "This project facilitated government collection of property rate tax through an application.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "gov.myassembly",
+        href: "https://assembly-citizen.gov-gh.com/",
+      },
+    },
+    {
+      title: "All African Games",
+      techStack: ["C#", "Kafka", "AKKA.NET", "USSD"],
+      description:
+        "This project provided ticketing services for the All African Games event",
+      logo: ConsultlyLogo,
+      link: {
+        label: "All African Games",
+        href: "https://accra2023ag.hpay.co/",
+      },
+    },
     {
       title: "Kredit Africa",
       techStack: ["TypeScript", "Next.js", "Node.js", "Python", "Django"],
@@ -101,6 +134,17 @@ export const RESUME_DATA = {
       link: {
         label: "hrms.enyata.com",
         href: "https://hrms.enyata.com/",
+      },
+    },
+    {
+      title: "Perry",
+      techStack: ["Go"],
+      description:
+        "A command-line interface (CLI) tool that simplifies the process of initializing a new Go web server.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/ralphvw/perry",
       },
     },
     {
@@ -150,17 +194,6 @@ export const RESUME_DATA = {
       link: {
         label: "github.com/ralphvw/replybot",
         href: "https://github.com/ralphvw/replybot",
-      },
-    },
-    {
-      title: "Walks",
-      techStack: ["Side Project", "C#", ".NET Core", "Entity Framework"],
-      description:
-        "Easily manage and maintain comprehensive walkway data nationwide, complete with authentication.",
-      logo: YearProgressLogo,
-      link: {
-        label: "github.com/ralphvw/Walks-API",
-        href: "https://github.com/ralphvw/Walks-API",
       },
     },
     {
