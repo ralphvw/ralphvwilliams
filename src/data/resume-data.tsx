@@ -98,7 +98,7 @@ export const RESUME_DATA = {
       title: "Gov.MyAssembly Citizen App",
       techStack: ["C#", "Kafka", "AKKA.NET", "USSD"],
       description:
-        "This project facilitated government collection of property rate tax through an application.",
+        "This project facilitated the Ghana government's collection of property rate tax through an application.",
       logo: ConsultlyLogo,
       link: {
         label: "gov.myassembly",
