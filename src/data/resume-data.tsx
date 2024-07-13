@@ -61,6 +61,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Hubtel",
+      link: "https://hubtel.com",
+      badges: ["On-Site"],
+      title: "Backend Engineer",
+      logo: ParabolLogo,
+      start: "2024",
+      end: "Present",
+      description:
+        "Built highly scalable applications. Contributed to the growth and success of Hubtel, recently recognized as the 30th fastest-growing company in Africa. Technologies: C#, PostgresQL, Kafka, AKKA.NET",
+    },
+    {
       company: "Enyata",
       link: "https://enyata.com",
       badges: ["On-Site"],
@@ -71,19 +82,9 @@ export const RESUME_DATA = {
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, mentored and tutored students in our company sponsored intitiative 'The Academy'. Technologies: TypeScript, GraphQL, Node.js, MongoDB, PostgresQL",
     },
-
-    {
-      company: "Hubtel",
-      link: "https://hubtel.com",
-      badges: ["On-Site"],
-      title: "Backend Engineer",
-      logo: ParabolLogo,
-      start: "2024",
-      end: "Present",
-      description: "Technologies: C#, PostgresQL, Kafka, AKKA.NET",
-    },
   ],
   skills: [
+    "C",
     "JavaScript",
     "TypeScript",
     "React/Next.js",
@@ -92,11 +93,12 @@ export const RESUME_DATA = {
     "Go",
     "Django",
     ".NET Core",
+    "Rust",
   ],
   projects: [
     {
       title: "Gov.MyAssembly",
-      techStack: ["C#", "Kafka", "AKKA.NET", "USSD"],
+      techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
         "This project facilitated the Ghana government's digitization process for the local government authority.",
       logo: ConsultlyLogo,
@@ -107,7 +109,7 @@ export const RESUME_DATA = {
     },
     {
       title: "All African Games",
-      techStack: ["C#", "Kafka", "AKKA.NET", "USSD"],
+      techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
         "This project provided ticketing services for the All African Games event",
       logo: ConsultlyLogo,
@@ -124,6 +126,17 @@ export const RESUME_DATA = {
       link: {
         label: "kreditafrica.com",
         href: "https://kreditafrica.com/",
+      },
+    },
+    {
+      title: "Payroll",
+      techStack: ["C#", ".NET", "Kafka", "AKKA.NET"],
+      description:
+        "An efficient app designed to streamline payroll processing for small to medium-sized businesses",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Payroll",
+        href: "https://staff-payroll.hubtel.com",
       },
     },
     {
