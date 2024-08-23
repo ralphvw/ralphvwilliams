@@ -64,7 +64,7 @@ export const RESUME_DATA = {
       company: "Hubtel",
       link: "https://hubtel.com",
       badges: ["On-Site"],
-      title: "Backend Engineer",
+      title: "Lead Backend Engineer",
       logo: ParabolLogo,
       start: "2024",
       end: "Present",
