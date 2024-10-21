@@ -97,6 +97,17 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Ghana Stadium",
+      techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
+      description:
+        "A web application for the National Sports Authority of Ghana, enabling fans to purchase tickets for Black Stars games with seamless seat assignments and real-time availability.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "ghanastadium",
+        href: "https://ghanastadium.com",
+      },
+    },
+    {
       title: "Gov.MyAssembly",
       techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
