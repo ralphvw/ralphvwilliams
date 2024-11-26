@@ -119,14 +119,14 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "All African Games",
-      techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
+      title: "micrograd",
+      techStack: ["Python", "PyTorch", "Jupyter Notebook"],
       description:
-        "This project provided ticketing services for the All African Games event",
+        "An implementation of Adrej Kaparthy's micrograd",
       logo: ConsultlyLogo,
       link: {
-        label: "All African Games",
-        href: "https://accra2023ag.hpay.co/",
+        label: "micrograd",
+        href: "https://github.com/ralphvw/micrograd",
       },
     },
     {
@@ -193,23 +193,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Caption Genius",
-      techStack: [
-        "Side Project",
-        "Python",
-        "Flask",
-        "LangChain",
-        "OpenAI",
-        "HuggingFace",
-      ],
-      description: "Generates captions for images",
-      logo: BarepapersLogo,
-      link: {
-        label: "https://caption-frontend-pied.vercel.app/",
-        href: "https://caption-frontend-pied.vercel.app/",
-      },
-    },
-    {
       title: "ReplyBot",
       techStack: ["Side Project", "Python", "Django", "OpenAI"],
       description:
@@ -219,16 +202,6 @@ export const RESUME_DATA = {
         label: "github.com/ralphvw/replybot",
         href: "https://github.com/ralphvw/replybot",
       },
-    },
-    {
-      title: "FluxTribe",
-      techStack: ["Typescript", "Node.js", "React"],
-      description: "Social app for collaborating on goals",
-      logo: YearProgressLogo,
-      link: {
-        label: "merifot.enyata.com",
-        href: "https://merifot.enyata.com",
-      },
-    },
+    }
   ],
 } as const;
