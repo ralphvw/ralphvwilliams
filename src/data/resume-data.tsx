@@ -122,7 +122,7 @@ export const RESUME_DATA = {
       title: "micrograd",
       techStack: ["Python", "PyTorch", "Jupyter Notebook"],
       description:
-        "An implementation of Adrej Kaparthy's micrograd",
+        "An implementation of Andrej Karpathy's micrograd",
       logo: ConsultlyLogo,
       link: {
         label: "micrograd",
