@@ -108,6 +108,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "EchoLive",
+      techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
+      description:
+        "A event hosting and ticketing platform that has hosted events such as Tidal Rave, Zaama Disco and Around The World",
+      logo: ConsultlyLogo,
+      link: {
+        label: "echolive",
+        href: "https://echolive.live",
+      },
+    },
+    {
       title: "Gov.MyAssembly",
       techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
