@@ -119,6 +119,16 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Kredit Africa",
+      techStack: ["TypeScript", "Next.js", "Node.js", "Python", "Django"],
+      description: "Empowering inclusive financial futures using AI.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "kreditafrica.com",
+        href: "https://kreditafrica.com/",
+      },
+    },
+    {
       title: "Gov.MyAssembly",
       techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
@@ -138,16 +148,6 @@ export const RESUME_DATA = {
       link: {
         label: "micrograd",
         href: "https://github.com/ralphvw/micrograd",
-      },
-    },
-    {
-      title: "Kredit Africa",
-      techStack: ["TypeScript", "Next.js", "Node.js", "Python", "Django"],
-      description: "Empowering inclusive financial futures using AI.",
-      logo: ConsultlyLogo,
-      link: {
-        label: "kreditafrica.com",
-        href: "https://kreditafrica.com/",
       },
     },
     {
