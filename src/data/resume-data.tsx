@@ -86,13 +86,9 @@ export const RESUME_DATA = {
   skills: [
     "C",
     "JavaScript",
-    "TypeScript",
-    "React/Next.js",
-    "Node.js",
-    "GraphQL",
     "Go",
     "Django",
-    ".NET Core",
+    "C#",
     "Rust",
   ],
   projects: [
