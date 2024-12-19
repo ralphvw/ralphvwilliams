@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Accra",
   about: "I love to build.",
   summary:
-    "As a Backend Engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with TypeScript, Node.js, GraphQL, Go, Python and .NET Core.",
+  "Backend engineer who has taken products from idea to launch",
   avatarUrl:
     "https://res.cloudinary.com/dty1ahn1y/image/upload/v1703789752/pfp_ixp2as.jpg",
   personalWebsiteUrl: "https://ralphvwilliams.vercel.app",
