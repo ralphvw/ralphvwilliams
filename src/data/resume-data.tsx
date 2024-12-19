@@ -75,7 +75,7 @@ export const RESUME_DATA = {
       company: "Enyata",
       link: "https://enyata.com",
       badges: ["On-Site"],
-      title: "Senior Backend Developer",
+      title: "Backend Developer",
       logo: ParabolLogo,
       start: "2021",
       end: "2024",
