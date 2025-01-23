@@ -93,6 +93,17 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Hubtel App",
+      techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
+      description:
+        "an app that connects users to top vendors for everyday essentials, offering the best deals with ultra-fast delivery.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "hubtel App",
+        href: "https://hubtel.com/get-the-app",
+      },
+    },
+    {
       title: "Ghana Stadium",
       techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
