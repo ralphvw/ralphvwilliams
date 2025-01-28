@@ -85,9 +85,10 @@ export const RESUME_DATA = {
   ],
   skills: [
     "C",
+    "Zig",
     "JavaScript",
     "Go",
-    "Django",
+    "Python",
     "C#",
     "Rust",
   ],
@@ -155,6 +156,16 @@ export const RESUME_DATA = {
       link: {
         label: "micrograd",
         href: "https://github.com/ralphvw/micrograd",
+      },
+    },
+    {
+      title: "Rediz",
+      techStack: ["Zig"],
+      description: "A redis client for zig",
+      logo: MonitoLogo,
+      link: {
+        label: "rediz",
+        href: "https://github.com/ralphvw/rediz",
       },
     },
     {
