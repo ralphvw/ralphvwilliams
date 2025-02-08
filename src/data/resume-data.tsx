@@ -105,6 +105,16 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Rediz",
+      techStack: ["Zig"],
+      description: "A redis client for zig",
+      logo: MonitoLogo,
+      link: {
+        label: "rediz",
+        href: "https://github.com/ralphvw/rediz",
+      },
+    },
+    {
       title: "Ghana Stadium",
       techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
@@ -156,16 +166,6 @@ export const RESUME_DATA = {
       link: {
         label: "micrograd",
         href: "https://github.com/ralphvw/micrograd",
-      },
-    },
-    {
-      title: "Rediz",
-      techStack: ["Zig"],
-      description: "A redis client for zig",
-      logo: MonitoLogo,
-      link: {
-        label: "rediz",
-        href: "https://github.com/ralphvw/rediz",
       },
     },
     {
