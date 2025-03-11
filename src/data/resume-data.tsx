@@ -147,28 +147,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Gov.MyAssembly",
-      techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
-      description:
-        "This project facilitated the Ghana government's digitization process for the local government authority.",
-      logo: ConsultlyLogo,
-      link: {
-        label: "gov.myassembly",
-        href: "https://assembly-citizen.gov-gh.com/",
-      },
-    },
-    {
-      title: "micrograd",
-      techStack: ["Python", "PyTorch", "Jupyter Notebook"],
-      description:
-        "An implementation of Andrej Karpathy's micrograd",
-      logo: ConsultlyLogo,
-      link: {
-        label: "micrograd",
-        href: "https://github.com/ralphvw/micrograd",
-      },
-    },
-    {
       title: "Payroll",
       techStack: ["C#", ".NET", "Kafka", "AKKA.NET"],
       description:
@@ -177,16 +155,6 @@ export const RESUME_DATA = {
       link: {
         label: "Payroll",
         href: "https://staff-payroll.hubtel.com",
-      },
-    },
-    {
-      title: "HRMS by Enyata",
-      techStack: ["TypeScript", "React", "GraphQL", "MongoDB", "Node.js"],
-      description: "SaaS for Human Resource Management.",
-      logo: MonitoLogo,
-      link: {
-        label: "hrms.enyata.com",
-        href: "https://hrms.enyata.com/",
       },
     },
     {
@@ -201,6 +169,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Cloth",
+      techStack: ["Rust"],
+      description:
+        "Cloth physics simulator",
+      logo: ConsultlyLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/ralphvw/cloth",
+      },
+    },
+    {
       title: "Validator",
       techStack: ["Side Project", "Go"],
       description: "Package to validate http request body in net/http",
@@ -208,17 +187,6 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/ralphvw/validator",
-      },
-    },
-    {
-      title: "Sprint Planner",
-      techStack: ["Side Project", "Vue", "Go"],
-      description:
-        "Streamline sprint planning effortlessly with our intuitive web app for software teams.",
-      logo: Minimal,
-      link: {
-        label: "thesprint.vercel.app",
-        href: "https://thesprint.vercel.app",
       },
     },
     {
