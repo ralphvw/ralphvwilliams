@@ -94,6 +94,16 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Rediz",
+      techStack: ["Zig"],
+      description: "A redis client for zig",
+      logo: ConsultlyLogo,
+      link: {
+        label: "rediz",
+        href: "https://github.com/ralphvw/rediz",
+      },
+    },
+    {
       title: "Hubtel App",
       techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
@@ -102,16 +112,6 @@ export const RESUME_DATA = {
       link: {
         label: "hubtel App",
         href: "https://hubtel.com/get-the-app",
-      },
-    },
-    {
-      title: "Rediz",
-      techStack: ["Zig"],
-      description: "A redis client for zig",
-      logo: MonitoLogo,
-      link: {
-        label: "rediz",
-        href: "https://github.com/ralphvw/rediz",
       },
     },
     {
