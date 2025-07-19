@@ -115,6 +115,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "EtherAudit",
+      techStack: ["Python", "AI"],
+      description:
+        "Paste any Solidity smart contract. Instantly get security insights, gas optimizations, and key function analysis powered by GPT-4o.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "EtherAudit",
+        href: "https://etheraudit.vercel.app/",
+      },
+    },
+    {
       title: "Ghana Stadium",
       techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
