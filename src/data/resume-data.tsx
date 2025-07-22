@@ -126,6 +126,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Companion",
+      techStack: ["Python", "AI"],
+      description:
+        "Companion is a command-line tool that answers natural language questions about unfamiliar repositories. It combines static code analysis, vector search, and AI to help you understand any codebase faster",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Companion",
+        href: "https://github.com/ralphvw/companion",
+      },
+    },
+    {
       title: "Ghana Stadium",
       techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
