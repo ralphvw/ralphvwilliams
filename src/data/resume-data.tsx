@@ -115,6 +115,16 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Kredit Africa",
+      techStack: ["TypeScript", "Node.js", "Python", "AI"],
+      description: "Empowering inclusive financial futures using AI.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "kreditafrica.com",
+        href: "https://kreditafrica.com/",
+      },
+    },
+    {
       title: "EtherAudit",
       techStack: ["Python", "AI"],
       description:
@@ -137,6 +147,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "BardNet",
+      techStack: ["Python", "AI"],
+      description:
+        "A minimal PyTorch implementation of a GPT-style transformer model that learns from Shakespeare’s works to generate text in his style.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Companion",
+        href: "https://github.com/ralphvw/bardNet",
+      },
+    },
+    {
       title: "Ghana Stadium",
       techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
@@ -156,16 +177,6 @@ export const RESUME_DATA = {
       link: {
         label: "echolive",
         href: "https://echolive.live",
-      },
-    },
-    {
-      title: "Kredit Africa",
-      techStack: ["TypeScript", "Next.js", "Node.js", "Python", "Django"],
-      description: "Empowering inclusive financial futures using AI.",
-      logo: ConsultlyLogo,
-      link: {
-        label: "kreditafrica.com",
-        href: "https://kreditafrica.com/",
       },
     },
     {
