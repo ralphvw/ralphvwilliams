@@ -158,6 +158,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "K&R C Formatter",
+      techStack: ["VSCode", "Package", "Typescript"],
+      description:
+        "A Visual Studio Code extension that enforces Kernighan & Ritchie (K&R) C style formatting globally, without requiring per-project configuration",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Companion",
+        href: "https://github.com/ralphvw/kr-formatter",
+      },
+    },
+    {
       title: "Ghana Stadium",
       techStack: ["C#", ".NET", "Kafka", "AKKA.NET", "USSD"],
       description:
