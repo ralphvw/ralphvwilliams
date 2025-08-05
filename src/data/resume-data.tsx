@@ -63,11 +63,11 @@ export const RESUME_DATA = {
     {
       company: "Hubtel",
       link: "https://hubtel.com",
-      badges: ["On-Site"],
+      badges: ["Remote"],
       title: "Lead Software Engineer",
       logo: ParabolLogo,
       start: "2024",
-      end: "Present",
+      end: "2025",
       description:
         "Built highly scalable applications. Contributed to the growth and success of Hubtel, recently recognized as the 30th fastest-growing company in Africa. Technologies: C#, PostgresQL, Kafka, AKKA.NET",
     },
@@ -82,6 +82,17 @@ export const RESUME_DATA = {
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, mentored and tutored students in our company sponsored intitiative 'The Academy'. Technologies: TypeScript, GraphQL, Node.js, MongoDB, PostgresQL",
     },
+    {
+      company: "Turntabl",
+      link: "https://turntabl.io",
+      badges: ["On-Site"],
+      title: "Software Engineer",
+      logo: ParabolLogo,
+      start: "2025",
+      end: "Present",
+      description:
+        "",
+    }
   ],
   skills: [
     "C",
